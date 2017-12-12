@@ -1,0 +1,46 @@
+body {
+
+
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-family: 'Aclonica', sans-serif;
+}
+/* vista inicial*/
+.food {
+  background-color: teal;
+  color: #880034;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 1;
+  text-align: center;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+}
+
+/* contenido principal */
+.contenidoInicial {
+  color: #880034;
+  background-color: teal;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+
+}
+.second {
+  height: 100vh;
+}
+hr {
+  width: 80%;
+  border-style: solid;
+  border-color: #880034;
+}
+.dropdown-menu {
+  text-align: center;
+  
+}
