@@ -44,3 +44,11 @@ hr {
   text-align: center;
   
 }
+.fotos {
+  width: 30%;
+  height: 20%;
+  display: inline-block;
+}
+.img2 {
+  width: 12em;
+}
