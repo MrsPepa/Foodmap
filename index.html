@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>FoodMap</title>
-  <link href="https://fonts.googleapis.com/css?family=Aclonica|Homemade+Apple" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aclonica|Pangolin" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,12 +23,13 @@
     </div>
     <!--modales-->
     <!--modal1-->
-    <div class="modal fade" id="modal1">
-      <div class="modal-dialog">
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal header">
-            <button class="close" data-dismiss="modal">x</button>
-            <h2>Dorayakis</h2>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+            aria-label="Close"><span aria-hidden="true">x</span></button>
+            <h4 class="modal-tittle" id="myModalLabel">Dorayakis</h4>
           </div>
         </div>
       </div>
@@ -59,30 +60,45 @@
           <!--japon-->
           <div class="container restaurante" id="japonesa">
             <div class="row">
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img1">
                 <a href="#" class="thumbnail">
+                  <div id="overplay1" data-toggle="modal" data-target="#modal1">
+                    <h4>Dorayaki</h4>
+                  </div>
                   <img src="assets/img/japon/dorayaki.jpg" alt="dorayaki">
                 </a>
               </div>
               <div class="col-xs-4 col-sm-4">
-                <a href="#" class="thumbnail">
+                <a href="#" class="thumbnail img2">
+                  <div id="overplay2">
+                    <h4>Ramen</h4>
+                  </div>
                   <img src="assets/img/japon/ramen.jpg" alt="ramen">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img3">
                 <a href="#" class="thumbnail">
+                  <div id="overplay3">
+                    <h4>Okonomiyaki</h4>
+                  </div>
                   <img src="assets/img/japon/okonomiyaki.jpg" alt="okonomiyaki">
                 </a>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img4">
                 <a href="#" class="thumbnail">
+                  <div id="overplay4">
+                    <h4>Sushi</h4>
+                  </div>
                   <img src="assets/img/japon/sushi.jpg" alt="sushi">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img5">
                 <a href="#" class="thumbnail">
+                  <div id="overplay5">
+                    <h4>Tokoyaki</h4>
+                  </div>
                   <img src="assets/img/japon/takoyaki.jpg" alt="takoyaki">
                 </a>
               </div>
@@ -92,30 +108,45 @@
           <!--chile-->
           <div class="container restaurante" id="chilena">
             <div class="row">
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img6">
                 <a href="#" class="thumbnail">
+                  <div id="overplay6">
+                    <h4>Humitas</h4>
+                  </div>
                   <img src="assets/img/chile/humitas.jpg" alt="humita">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img7">
                 <a href="#" class="thumbnail">
+                  <div id="overplay7">
+                    <h4>Porotos</h4>
+                  </div>
                   <img src="assets/img/chile/porotos.png" alt="poroto">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img8">
                 <a href="#" class="thumbnail">
+                  <div id="overplay8">
+                    <h4>Empanadas</h4>
+                  </div>
                   <img src="assets/img/chile/empanadas.jpg" alt="empanada">
                 </a>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img9">
                 <a href="#" class="thumbnail">
+                  <div id="overplay9">
+                    <h4>Charquican</h4>
+                  </div>
                   <img src="assets/img/chile/charquican.jpg" alt="charquican">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img10">
                 <a href="#" class="thumbnail">
+                  <div id="overplay10">
+                    <h4>Pastel de Choclo</h4>
+                  </div>
                   <img src="assets/img/chile/pastel-choclo.jpg" alt="pastel de choclo">
                 </a>
               </div>
@@ -125,30 +156,45 @@
           <!--china-->
           <div class="container restaurante" id="chinesse">
             <div class="row">
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img11">
                 <a href="#" class="thumbnail">
+                  <div id="overplay11">
+                    <h4>Shiu Mai</h4>
+                  </div>
                   <img src="assets/img/china/shui-mai.png" alt="shui mai">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img12">
                 <a href="#" class="thumbnail">
+                  <div id="overplay12">
+                    <h4>Beff ball</h4>
+                  </div>
                   <img src="assets/img/china/beef-ball.jpg" alt="beef ball">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img13">
                 <a href="#" class="thumbnail">
+                  <div id="overplay13">
+                    <h4>Steamed feet</h4>
+                  </div>
                   <img src="assets/img/china/steamed-feet.jpg" alt="steamed">
                 </a>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img14">
                 <a href="#" class="thumbnail">
+                  <div id="overplay14">
+                    <h4>Eggs Rolls</h4>
+                  </div>
                   <img src="assets/img/china/eggs-rolls.jpg" alt="egg roll">
                 </a>
               </div>
-              <div class="col-xs-4 col-sm-4">
+              <div class="col-xs-4 col-sm-4 img15">
                 <a href="#" class="thumbnail">
+                  <div id="overplay15">
+                    <h4>Fun Gor</h4>
+                  </div>
                   <img src="assets/img/china/fun-gor.jpg" alt="fun gor">
                 </a>
               </div>
@@ -164,7 +210,8 @@
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/app.js"></script>
   <script src="https://use.fontawesome.com/af26e6fe45.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
 </body>
 </html>
