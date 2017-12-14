@@ -32,9 +32,6 @@ $(document).ready(function() {
     $('#japonesa').hide();
     $('#chilena').hide();
   }
-  $('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
-})
 });
 
 /*  efectos mouseover  */

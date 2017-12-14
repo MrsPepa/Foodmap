@@ -44,9 +44,10 @@ hr {
   
 }
 
+/* mouseover */
 #overplay1, #overplay2, #overplay3, #overplay4, #overplay5, #overplay6, #overplay7, #overplay8, #overplay9, #overplay10, #overplay11, #overplay12, #overplay13, #overplay14, #overplay15 {
-  width: 100px;
-  height: 100px;
+  width: 86%;
+  height: 81%;
   background-color: #000;
   color: #FFF;
   text-align: center;
@@ -55,4 +56,8 @@ hr {
   position: absolute;
   top: 0.5em;
   display:none;
+}
+/*estilos modal*/
+.modal {
+  text-align: center;
 }
